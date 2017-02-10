@@ -1,0 +1,21 @@
+{
+    "name": "cllorca/hl7messages",
+    "description": "Hl7 Message for Yii2 App",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","hl7"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Carlos A. Llorca Santana",
+            "email": "carlosllorca89@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "cllorca\\hl7message\\": ""
+        }
+    }
+}
