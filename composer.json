@@ -1,10 +1,9 @@
 {
     "name": "carlosllorca/hl7-messages",
-    "description": "Hl7 Messages for Yii2 App",
+    "description": "Hl7 Message for Yii2 App",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
+    "keywords": ["yii2","extension","hl7"],
     "license": "Apache-2.0",
-
     "authors": [
         {
             "name": "Carlos A. Llorca Santana",
@@ -16,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "carlosllorca\\Hl7Messages\\": ""
+            "cllorca\\hl7message\\": ""
         }
     }
 }
