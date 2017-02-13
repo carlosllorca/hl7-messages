@@ -14,7 +14,7 @@ class RxrSegment extends \yii\base\Model
         public $injection_type_code;
         public $injection_site;
         public $injection_site_code;
-        public $name2;
+       
     public function rules()
     {
         return [

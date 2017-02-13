@@ -1,10 +1,13 @@
 <?php
+
 /**
- * Created by PhpStorm.
- * User: carlos
- * Date: 8/02/17
- * Time: 13:29
- */
+ * This is the model class for PID segments. If you need add new segment add  a public attribute and use it in 
+ * Hl7v2 class. Methods  
+ *
+ * @property string $patientId
+ * @property RxaSegment $rxa
+ * @property RxrSegment $rxr
+ **/
 namespace cllorca\hl7messages\Segments;
 
 class PidSegment extends \yii\base\Model
